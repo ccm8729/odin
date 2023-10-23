@@ -8,6 +8,7 @@
 
 .header
 {
+    
     text-align: center;
 }
 .headtext
@@ -15,6 +16,7 @@
     text-align: center;
     margin: 30px;
     margin-bottom: 15px;
+    margin-left: 16%;
 }
 
 
@@ -25,13 +27,17 @@
     border-top: solid #c4c3c0 3px;
     left: 15px;
     position: sticky;
-    float: left;   
+    float: left;  
+    
+    
+    font-size: 20px;
+    margin-bottom: 10px;
      
 }
 
 .main-content
 {
-    margin-left: 17%;
+    margin-left: 16%;
     text-align: center;
 }
 
@@ -45,35 +51,31 @@
     
 }
 
-.links
-{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
 .lcont
 {
     margin-bottom: 10px; 
     font-size: 30px;
 }
 
-.perhead
+.perhead.trahead.prohead
 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
 
 .Personal
 {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 400;
     border-bottom: #c4c3c0 solid 3px;
     padding: 5px;
 }
 
 .Professional
 {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 400;
 
 }
 
@@ -92,5 +94,31 @@ table, th, tr
 {
     border-bottom: #c4c3c0 solid 3px;
 }
+
+.travel
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tralist
+{
+    list-style-type: none;
+}
+
+
+.footer
+{
+    color: black;
+    background-color: #c4c3c0;
+}
+
+.hippo
+{
+    margin-left: 16%;
+    text-align: center;
+}
+
+
 
 
