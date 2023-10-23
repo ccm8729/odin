@@ -1,0 +1,54 @@
+.headimg
+{
+    
+}
+
+.header
+{
+    text-align: center;
+}
+.headtext
+{
+    text-align: center;
+    margin: 30px;
+}
+
+
+.links
+{
+    width: 15%;
+    border-right: solid #c4c3c0 3px;
+    left: 15px;
+    position: sticky;
+    float: left;
+
+    
+    
+}
+
+.main-content
+{
+    margin-left: 17%;
+    text-align: center;
+}
+
+.toc
+{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.links
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.lcont
+{
+    margin-bottom: 10px; 
+    font-size: 30px;
+}
+
+
