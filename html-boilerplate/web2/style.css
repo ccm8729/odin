@@ -21,20 +21,27 @@
 
 body
 {
-    background: linear-gradient(to right, #FCF2C2 15.76%, white 15.76% 100%)
+    background: linear-gradient(to right, #BDF79C 15.76%, white 15.76% 100%);
+   
+
 }
 
+a:link
+{
+    color: #0f4bb3;
+}
+
+a:visited
+{
+    color: #86847E;
+}
 
 .links
 {
     width: 15%;
-    border-right: solid #c4c3c0 3px;
-    border-top: solid #c4c3c0 3px;
     left: 15px;
-    position: sticky;
     float: left;  
-    font-size: 20px;
-      
+    font-size: 20px;          
 }
 
 .sideimg
@@ -70,12 +77,13 @@ body
     font-size: 30px;
 }
 
-.perhead.trahead.prohead
+.perhead .trahead
 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
+
 
 .Personal
 {
@@ -125,12 +133,6 @@ table, th, tr
 }
 
 
-.footer
-{
-    color: black;
-    background-color: #c4c3c0;
-}
-
 .hippo
 {
     margin-left: 16%;
@@ -139,8 +141,31 @@ table, th, tr
 
 /*Professional page styling starts here*/
 
+.proimgh
+{
+    max-width: 100%;
+    max-height: 500px;
+    margin-left: 22%;
+}
 ul
 {
     list-style-position: inside;
+}
+
+.prodetail
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.prosubhead
+{
+    font-size: 24px;
+    
+}
+
+.prohead 
+{
+    font-size: 24px;
 }
 
