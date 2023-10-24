@@ -161,11 +161,24 @@ ul
 .prosubhead
 {
     font-size: 24px;
-    
 }
 
 .prohead 
 {
     font-size: 24px;
 }
+
+.coimage
+{
+    width: 40%;
+    float: right;
+}
+
+.procowork
+{
+    width: 90%;
+
+}
+
+
 
