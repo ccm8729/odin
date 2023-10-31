@@ -132,7 +132,10 @@ table, th, tr
     list-style-type: none;
 }
 
-
+.footer
+{
+    font-size: 1vw;
+}
 .hippo
 {
     margin-left: 16%;
