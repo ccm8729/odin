@@ -1,6 +1,6 @@
 .headimg
 {     
-    height: 45vh;
+    height: 50vh;
     width: 100vw;
     margin-left: -8px;
     margin-top: -8px;
@@ -23,9 +23,7 @@
 body
 {
     background: linear-gradient(to right, #BDF79C 15.76%, white 15.76% 100%);
-
     background-repeat: no-repeat;
-
 }
 
 a:link
@@ -51,13 +49,7 @@ a:visited
     max-width: 99%;
 }
 
-.main-content, .trmain
-{
-    margin-left: 16%;
-    text-align: center;
-}
-
-.promain
+.main-content, .trmain, .promain, .contmain
 {
     margin-left: 16%;
     text-align: center;
@@ -87,24 +79,18 @@ a:visited
 }
 
 
-.Personal .trmain
+/*Basic body text formatting*/
+
+.trmain, .Professional, .travel, .personal, .contmain
 {
     font-size: 20px;
     font-weight: 400;
-    
     padding: 5px;
 }
 
 .perend
 {
     border-bottom: #c4c3c0 solid 3px;
-}
-
-.Professional
-{
-    font-size: 20px;
-    font-weight: 400;
-
 }
 
 .protable
@@ -123,15 +109,12 @@ table, th, tr
     border-bottom: #c4c3c0 solid 3px;
 }
 
-.travel
-{
-    font-size: 20px;
-    font-weight: 400;
-}
-
 .tralist
 {
     list-style-type: none;
+    font-size: 16px; 
+    font-weight: 200px;
+    padding: 5px;
 }
 
 .footer
@@ -228,7 +211,8 @@ ul
 {
     left: 36%;
     border-radius: 4px 0 0 4px;
-    }
+}
+
 
 
 
