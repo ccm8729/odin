@@ -13,17 +13,22 @@
     <p class="od">ODIN</p>
 </div>
 
-<h2 class="headerText">This is not a real form for a real website.  Sign up anyway, let's see what happens </h2>
+<div class="header">
+    <h2 class="headerText">This is not a real form for a real website.  Sign up anyway, let's see what happens </h2>
+</div>
 
 <form>
-    <fieldset>
+    <fieldset class="form">
         <legend>Let's do this!</legend>
         
         <label for="firstName">First Name </label>
-        <input type="text" id="firstName" name="firstName">
+        <input type="text" id="firstName" name="firstName" placeholder="Chris">
 
         <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" name="lastName">
+        <input type="text" id="lastName" name="lastName" placeholder="Fedosick">
+
+        <br>
+        <br>
 
         <label for="email">email</label>
         <input type="email" id="email" name="email">
@@ -31,12 +36,14 @@
         <label for="phone">Phone Number</label>
         <input type="tel" id="phone" name="phone">
 
-
+        <br>
+        <br>
+        
         <label for="password">password</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="password" required minlength="8">
 
         <label for="confirmPass">Confirm password</label>
-        <input type="password" id="confirmPass" name="confirmPass">
+        <input type="password" id="confirmPass" name="confirmPass" required minlength="8">
 
     </fieldset>
 </form>
