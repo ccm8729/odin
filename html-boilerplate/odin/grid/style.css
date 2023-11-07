@@ -1,0 +1,64 @@
+.grid-container
+{
+    display: inline-grid;
+    grid-template: 75px 75px 75px 75px 75px  / 75px 75px 75px;  
+   
+}
+
+.card
+{
+  border: 3px black solid;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+button:hover
+{
+    background-color: aqua;
+}
+
+button:active
+{
+    background-color: green;
+}
+
+#entry
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    
+}
+
+#test
+{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    
+}
+
+#living
+{
+    grid-column: 1 / 4 ;
+    grid-row: 2 / 3;
+    
+}
+
+#hall
+{
+    grid-column: 3 / 4; 
+    grid-row: 2 / 3;
+}
+
+#bathroom
+{
+    grid-column: 4 / 6;
+    grid-row: 1 / 2; 
+    
+}
+
+#bedroom
+{
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+}
