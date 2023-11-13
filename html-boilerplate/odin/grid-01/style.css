@@ -11,8 +11,8 @@ html {
   box-sizing: border-box;
 
   display: grid;
-  grid-template-columns: 15vw 80vw;
-  grid-template-rows: 100px 100px 500px 100px;
+  grid-template-columns: repeat(2, 1fr)  /*15vw 80vw*/;
+  grid-template-rows: repeat(2, 1fr) repeat(1, 3fr) repeat(1, 1fr)  /*100px 100px 500px 100px*/;
   gap: 20px
   
 }
