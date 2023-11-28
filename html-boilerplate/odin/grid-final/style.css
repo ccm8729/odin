@@ -1,0 +1,40 @@
+*
+{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+.upper, .lower
+{
+    list-style-type: none; 
+    margin: 15px;
+             
+}
+
+li
+{
+    margin: 15px;   
+}
+.links
+{
+    background-color: #fecdd3;
+    width: 15vw;
+    left: 15px;
+    float: left; 
+    height: 100vh;
+    
+}
+
+.main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card
+{
+    border: solid #4c0519;
+
+}
+
